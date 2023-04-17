@@ -4,13 +4,13 @@
     class DBConecctionSingleton {
 
         // Propiedad estática que almacena la instancia única de la clase
-        static intance:DBConecctionSingleton;
+        static intance;
 
-        // Constructor privado, esto indica que la clase no puede ser instanciada desde fuera
-        private constructor( public name: string ) {}
+        // Constructor
+        constructor( name ) {}
 
         // Método estático que devuelve la instancia única de la clase
-        static callDBConecctionSingleton(): DBConecctionSingleton {
+        static callDBConecctionSingleton() {
             // Si no existe la instancia, la creamos
             if ( !DBConecctionSingleton.intance ) {
                 // Creamos la instancia
