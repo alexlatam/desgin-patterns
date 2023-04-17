@@ -1,0 +1,12 @@
+# Factory Pattern
+
+
+## Description
+Se deben tener dos abstracciones: una para fábricas, para poder crear distintas fábricas, y otra para productos, para poder crear diferentes tipos de productos. Cada fábrica concreta puede crear productos concretos dependiendo de las relaciones entre ellas.
+
+
+## Contras
+- El código puede ser más complejo que el patrón de creación simple.
+- Puede ser difícil de entender el código para los nuevos desarrolladores que no están familiarizados con el patrón de diseño.
+- Se necesitaran crear muchas fabricas concretas para cada tipo de producto.
+- - Ej: Producto Arroz => ArrozFactory, Producto Frijol => FrijolFactory, Producto Carne => CarneFactory, etc.
