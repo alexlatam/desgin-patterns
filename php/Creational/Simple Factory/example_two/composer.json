@@ -1,0 +1,15 @@
+{
+    "name": "alexlatam/example",
+    "autoload": {
+        "psr-4": {
+            "SimpleFactorySecond\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexis Montilla",
+            "email": "alexisamm9261@gmail.com"
+        }
+    ],
+    "require": {}
+}
