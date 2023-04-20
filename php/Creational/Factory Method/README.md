@@ -1,6 +1,9 @@
 # Factory Method Design Pattern - PHP
 
 ## Descripcion
+Se creara una fabrica por cada tipo de producto que se quiera crear. No habra una fabrica general que cree todos los productos.
+En caso de crear un nuevo producto, se tendra que crear una nueva fabrica, ademas de la clase del producto en si. 
+Esto ultimno no pertenece al patron de diseño.
 
 
 ## Caracteristicas
