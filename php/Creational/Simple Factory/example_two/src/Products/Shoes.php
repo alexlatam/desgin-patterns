@@ -1,11 +1,11 @@
 <?php 
 
-namespace SimpleFactorySecond\Products;
+namespace SimpleFactory\Products;
 
-use SimpleFactorySecond\Contracts\ClothesInterface;
+use SimpleFactory\Contracts\ClothesInterface;
 
 // La clase Car al implementar la interfaz VehicleInterface, debe implementar todos los métodos de la interfaz.
-class Shoe implements ClothesInterface
+class Shoes implements ClothesInterface
 {
     public function isClean(): bool {
         return true;

@@ -2,7 +2,7 @@
     "name": "alexlatam/example",
     "autoload": {
         "psr-4": {
-            "SimpleFactorySecond\\": "src/"
+            "SimpleFactory\\": "src/"
         }
     },
     "authors": [
