@@ -1,4 +1,4 @@
-javascript/*/package.json
 javascript/*/vendor
+typescript/*/vendor
 
 php/*/vendor

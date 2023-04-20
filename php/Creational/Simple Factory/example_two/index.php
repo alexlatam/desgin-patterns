@@ -11,13 +11,13 @@ require __DIR__ . '/vendor/autoload.php';
 // Esta funcion recibe una fabrica como parametro
 function RandomFactory(SimpleFactory $factory) {
 
-    // Creamos un objeto de la clase Car
-    $vehicle = $factory::createNewCar();
+    // Creamos un objeto de la clase Shoes a partir de un metodo estatico de la clase factory
+    $shoes = $factory::createNewShoe();
 
     // Ahora llamamos a los metodos de cada objeto
-    echo $vehicle->getColor() . "\n";
-    echo $vehicle->getModel() . "\n";
-    echo $vehicle->getBrand() . "\n";
+    echo $shoes->getColor() . "\n";
+    echo $shoes->getSize() . "\n";
+    echo $shoes->getPrice() . "\n";
 
 }
 
