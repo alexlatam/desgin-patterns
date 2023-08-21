@@ -10,8 +10,3 @@ require __DIR__ . '/vendor/autoload.php';
 // Creamos un a funcion para crear un vehiculo
 // Esta funcion recibe una fabrica como parametro
 $newPants = new PantsFactory();
-
-
-
-
-
