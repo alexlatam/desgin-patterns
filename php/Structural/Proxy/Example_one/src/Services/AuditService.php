@@ -2,7 +2,8 @@
 
 namespace Proxy\Services;
 
-class AuditService
+// Este es un servicio que NO forma parte del patron. Simplemente es un servicio que se usa en el ejemplo.
+final class AuditService
 {
     public function log(string $username, string $action): void
     {

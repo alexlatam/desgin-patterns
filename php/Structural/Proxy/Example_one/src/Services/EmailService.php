@@ -2,7 +2,8 @@
 
 namespace Proxy\Services;
 
-class EmailService
+// Este es un servicio que NO forma parte del patron. Simplemente es un servicio que se usa en el ejemplo.
+final class EmailService
 {
     public function send(string $to): void
     {
