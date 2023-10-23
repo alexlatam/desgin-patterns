@@ -1,6 +1,6 @@
 <?php
 
-namespace Proxy\Services;
+namespace ProxyOne\Services;
 
 // Este es un servicio que NO forma parte del patron. Simplemente es un servicio que se usa en el ejemplo.
 final class SecurityService

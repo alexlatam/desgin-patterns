@@ -1,6 +1,6 @@
 <?php
 
-namespace Proxy\Contracts;
+namespace ProxyOne\Contracts;
 
 /**
  * Esta interfaz debe ser implementada por la clase que sera encapsulada, wraped, por el proxy.

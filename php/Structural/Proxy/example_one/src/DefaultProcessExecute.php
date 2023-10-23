@@ -1,8 +1,8 @@
 <?php
 
-namespace Proxy;
+namespace ProxyOne;
 
-use Proxy\Contracts\ProcessExecutorInterface;
+use ProxyOne\Contracts\ProcessExecutorInterface;
 
 /**
  * Esta es la clase que sera usada por el proxy para ejecutar los procesos.

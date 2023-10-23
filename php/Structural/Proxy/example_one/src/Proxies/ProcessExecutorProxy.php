@@ -1,15 +1,15 @@
 <?php
 
-namespace Proxy\Proxies;
+namespace ProxyOne\Proxies;
 
 use Exception;
-use Proxy\Contracts\ProcessExecutorInterface;
-use Proxy\DefaultProcessExecute;
-use Proxy\Services\AuditService;
-use Proxy\Services\CacheService;
-use Proxy\Services\EmailService;
-use Proxy\Services\RoleService;
-use Proxy\Services\SecurityService;
+use ProxyOne\Contracts\ProcessExecutorInterface;
+use ProxyOne\DefaultProcessExecute;
+use ProxyOne\Services\AuditService;
+use ProxyOne\Services\CacheService;
+use ProxyOne\Services\EmailService;
+use ProxyOne\Services\RoleService;
+use ProxyOne\Services\SecurityService;
 
 /**
  * Class ProcessExecutorProxy
