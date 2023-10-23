@@ -6,13 +6,10 @@ namespace AdapterOne\Adapters;
 use AdapterOne\Contracts\EmailInterface;
 use AdapterOne\Services\Gmail;
 
-final class GmailAdapter implements EmailInterface
+final readonly class GmailAdapter implements EmailInterface
 {
-    private Gmail $gmailService;
-
-    public function __construct(Gmail $gmailService)
+    public function __construct(private Gmail $gmailService)
     {
-        $this->gmailService = $gmailService;
     }
 
     public function send(string $to, string $from, string $subject, string $body): void

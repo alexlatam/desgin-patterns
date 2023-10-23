@@ -1,0 +1,13 @@
+<?php
+namespace StrategyOne;
+
+use Contracts\LogInterface;
+
+final class App
+{
+    public function log($data, LogInterface $log = null): void
+    {
+        $log = $log ?: new Strategies\LogToFile();
+        $log->log($data);
+    }
+}

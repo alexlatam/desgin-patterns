@@ -1,0 +1,17 @@
+{
+    "name": "alexlatam/example",
+    "autoload": {
+        "psr-4": {
+            "StrategyOne\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexis Montilla",
+            "email": "alexisamm9261@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    }
+}

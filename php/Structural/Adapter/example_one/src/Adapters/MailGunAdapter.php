@@ -6,13 +6,10 @@ namespace AdapterOne\Adapters;
 use AdapterOne\Contracts\EmailInterface;
 use AdapterOne\Services\MailGun;
 
-final class MailGunAdapter implements EmailInterface
+final readonly class MailGunAdapter implements EmailInterface
 {
-    private MailGun $mailGun;
-
-    public function __construct(MailGun $mailGun)
+    public function __construct(private MailGun $mailGun)
     {
-        $this->mailGun = $mailGun;
     }
 
     public function send(string $to, string $from, string $subject, string $body): void

@@ -6,13 +6,10 @@ namespace AdapterOne\Adapters;
 use AdapterOne\Contracts\EmailInterface;
 use AdapterOne\Services\SendGrid;
 
-final class SendGridAdapter implements EmailInterface
+final readonly class SendGridAdapter implements EmailInterface
 {
-    private SendGrid $sendGripService;
-
-    public function __construct(SendGrid $sendGripService)
+    public function __construct(private SendGrid $sendGripService)
     {
-        $this->sendGripService = $sendGripService;
     }
 
     public function send(string $to, string $from, string $subject, string $body): void
