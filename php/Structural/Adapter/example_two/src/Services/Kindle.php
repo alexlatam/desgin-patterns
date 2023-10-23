@@ -1,8 +1,8 @@
 <?php
 
-namespace Adapter\Services;
+namespace AdapterThree\Services;
 
-use Adapter\Contracts\eReaderInterface;
+use AdapterThree\Contracts\eReaderInterface;
 
 class Kindle implements eReaderInterface
 {

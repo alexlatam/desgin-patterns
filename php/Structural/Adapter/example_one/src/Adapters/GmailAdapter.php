@@ -1,15 +1,14 @@
 <?php
-
 declare(strict_types=1);
 
-namespace Src\Adapters;
+namespace AdapterOne\Adapters;
 
-use Src\Contracts\EmailInterface;
-use Src\Services\Gmail;
+use AdapterOne\Contracts\EmailInterface;
+use AdapterOne\Services\Gmail;
 
-class GmailAdapter implements EmailInterface
+final class GmailAdapter implements EmailInterface
 {
-    private $gmailService;
+    private Gmail $gmailService;
 
     public function __construct(Gmail $gmailService)
     {
@@ -23,6 +22,6 @@ class GmailAdapter implements EmailInterface
         // ....
         // ....
 
-        $this->gmailService->send($to, $from, $subject, $body);
+        $this->gmailService->sendMail($to, $from, $subject, $body);
     }
 }

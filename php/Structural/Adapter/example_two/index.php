@@ -1,5 +1,4 @@
 <?php
-
 require __DIR__ . '/../../vendor/autoload.php';
 
 use Adapter\Adapters\eReaderAdapter;
@@ -7,7 +6,7 @@ use Adapter\Contracts\TransaportInterface;
 use Adapter\Services\Transaport;
 use Adapter\Services\Kindle;
 
-//ESta es la clase CLIENTE que usara el adapatador
+//Esta es la clase CLIENTE que usara el adapatador
 class Person
 {
     // El cliente recibe una clase que implemente la interfaz BookInterface

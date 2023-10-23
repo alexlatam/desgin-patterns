@@ -1,8 +1,8 @@
 <?php
 
-namespace Src\Contracts;
+namespace AdapterOne\Contracts;
 
-// This is the Target interface. It defines the domain-specific interface used by the client code.
+// Esta interface define el contrato que deben seguir todos los adaptadores
 interface EmailInterface
 {
     public function send(string $to, string $from, string $subject, string $body): void;

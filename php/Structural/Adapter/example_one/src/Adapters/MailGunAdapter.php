@@ -1,13 +1,14 @@
 <?php
+declare(strict_types=1);
 
-namespace Src\Adapters;
+namespace AdapterOne\Adapters;
 
-use Src\Contracts\EmailInterface;
-use Src\Services\MailGun;
+use AdapterOne\Contracts\EmailInterface;
+use AdapterOne\Services\MailGun;
 
-class MailGunAdapter implements EmailInterface
+final class MailGunAdapter implements EmailInterface
 {
-    private $mailGun;
+    private MailGun $mailGun;
 
     public function __construct(MailGun $mailGun)
     {
@@ -21,6 +22,6 @@ class MailGunAdapter implements EmailInterface
         // ....
         // ....
 
-        $this->mailGun->send($to, $from, $subject, $body);
+        $this->mailGun->sendGunMail($to, $from, $subject, $body);
     }
 }
