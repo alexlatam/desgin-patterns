@@ -1,9 +1,7 @@
 <?php
-
 use FactoryMethod\Factories\AccountingDepartment;
 use FactoryMethod\Factories\ITDepartment;
-// Importo el autoload de composer para poder usar las clases de los namespaces.
-// Para poder usar todas las clases que se encuentran en la carpeta src
+
 require __DIR__ . '/vendor/autoload.php';
 
 // Instanciamos las fabricas concretas

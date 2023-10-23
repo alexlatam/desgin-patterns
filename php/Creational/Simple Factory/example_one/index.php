@@ -1,6 +1,6 @@
 <?php
 
-use SimpleFactory\SimpleFactory;
+use SimpleFactoryOne\SimpleFactory;
 // Importo el autoload de composer para poder usar las clases de los namespaces.
 // PAra poder usar todas las clases que se encuentran en la carpeta src
 require __DIR__ . '/vendor/autoload.php';

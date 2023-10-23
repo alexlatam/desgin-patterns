@@ -4,7 +4,7 @@ namespace AbstractFactory\Vehicles;
 
 use AbstractFactory\Contracts\VehicleInterface;
 
-// La clase Car al implementar la interfaz VehicleInterface, debe implementar todos los métodos de la interfaz.
+// La clase EmployeeService al implementar la interfaz VehicleInterface, debe implementar todos los métodos de la interfaz.
 class Car implements VehicleInterface
 {
     public function setColor($rgb): void {

@@ -4,8 +4,8 @@ namespace SimpleFactory\Products;
 
 use SimpleFactory\Contracts\ClothesInterface;
 
-// La clase Car al implementar la interfaz VehicleInterface, debe implementar todos los métodos de la interfaz.
-class Shoes implements ClothesInterface
+// La clase EmployeeService al implementar la interfaz VehicleInterface, debe implementar todos los métodos de la interfaz.
+final class Shoes implements ClothesInterface
 {
     public function isClean(): bool {
         return true;

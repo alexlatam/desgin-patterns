@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/php/Creational/Abstract Factroy/example_four/src" isTestSource="false" packagePrefix="AbstractFactory" />
+      <sourceFolder url="file://$MODULE_DIR$/php/Creational/Abstract Factroy/example_one/src" isTestSource="false" packagePrefix="AbstractFactory" />
+      <sourceFolder url="file://$MODULE_DIR$/php/Creational/Abstract Factroy/example_two/src" isTestSource="false" packagePrefix="AbstractFactory" />
+      <sourceFolder url="file://$MODULE_DIR$/php/Creational/Builder/example_one/src" isTestSource="false" packagePrefix="Builder" />
+      <sourceFolder url="file://$MODULE_DIR$/php/Creational/Builder/example_two/src" isTestSource="false" packagePrefix="Builder" />
+      <sourceFolder url="file://$MODULE_DIR$/php/Creational/Factory Method/example_one/src" isTestSource="false" packagePrefix="FactoryMethod" />
+      <sourceFolder url="file://$MODULE_DIR$/php/Creational/Factory Method/example_two" isTestSource="false" packagePrefix="FactoryMethod" />
+      <sourceFolder url="file://$MODULE_DIR$/php/Creational/Prototype/example_one/src" isTestSource="false" packagePrefix="Prototype" />
+      <sourceFolder url="file://$MODULE_DIR$/php/Creational/Prototype/example_two/src" isTestSource="false" packagePrefix="Prototype" />
+      <sourceFolder url="file://$MODULE_DIR$/php/Creational/Simple Factory/example_one/src" isTestSource="false" packagePrefix="SimpleFactory" />
+      <sourceFolder url="file://$MODULE_DIR$/php/Creational/Simple Factory/example_two/src" isTestSource="false" packagePrefix="SimpleFactory" />
+      <sourceFolder url="file://$MODULE_DIR$/php/Structural/Adapter/example_one" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/php/Structural/Composite/example_one/src" isTestSource="false" packagePrefix="Composite" />
+      <sourceFolder url="file://$MODULE_DIR$/php/Structural/Proxy/Example_one/src" isTestSource="false" packagePrefix="Proxy" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

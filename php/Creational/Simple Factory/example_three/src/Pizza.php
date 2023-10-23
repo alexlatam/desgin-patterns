@@ -3,8 +3,8 @@
 namespace SimpleFactory;
 
 // Clase pizza
-class Pizza {
-
+final class Pizza
+{
     private int $slices;
 
     public function __construct(int $slices) {
@@ -14,5 +14,4 @@ class Pizza {
     public function getSlices(): int {
         return $this->slices;
     }
-    
 }

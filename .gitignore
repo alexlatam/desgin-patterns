@@ -1,4 +1,5 @@
-javascript/*/vendor
-typescript/*/vendor
+javascript/**/vendor
+typescript/**/vendor
+typescript/**/node_modules
 
-php/*/vendor
+php/**/vendor

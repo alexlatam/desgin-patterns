@@ -1,11 +1,11 @@
 <?php 
 
-namespace SimpleFactory\Vehicles;
+namespace SimpleFactoryOne\Vehicles;
 
-use SimpleFactory\Contracts\VehicleInterface;
+use SimpleFactoryOne\Contracts\VehicleInterface;
 
 // La clase TRuck al implementar la interfaz VehicleInterface, debe implementar todos los métodos de la interfaz.
-class Truck implements VehicleInterface
+final class Truck implements VehicleInterface
 {
     public function setColor($rgb): void {
         // Code

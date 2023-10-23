@@ -40,14 +40,14 @@
     class MastodonCar implements BaseCar {
         /** @override showCost() method */
         showCost(): void {
-            console.log('[MASTODON] Car Cost: 300,000 MXN');
+            console.log('[MASTODON] EmployeeService Cost: 300,000 MXN');
         }
     }
 
     class RhinoCar implements BaseCar {
         /** @override showCost() method */
         showCost(): void {
-            console.log('[RHINO] Car Cost: 100,000 MXN');
+            console.log('[RHINO] EmployeeService Cost: 100,000 MXN');
         }
     }
 
@@ -82,7 +82,7 @@
 
     /**
      * Main function
-     * @param {CarFactory} factory Car factory
+     * @param {CarFactory} factory EmployeeService factory
      */
     function appFactory(factory: CarFactory): void {
         console.log('--- [TS] Calling appFactory ---\n');

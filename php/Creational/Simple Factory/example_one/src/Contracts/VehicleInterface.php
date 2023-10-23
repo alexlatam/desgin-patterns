@@ -1,6 +1,6 @@
 <?php 
 
-namespace SimpleFactory\Contracts;
+namespace SimpleFactoryOne\Contracts;
 
 //  Declaro una interfaz para los vehículos. 
 // Esta interfaz sera implementada por todos los vehiculos que se creen.

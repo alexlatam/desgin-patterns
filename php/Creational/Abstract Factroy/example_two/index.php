@@ -1,6 +1,7 @@
-<?php 
+<?php
 
-use AbstractFactory\VehiclesAbstractFactory;
+use AbstractFactory\Contracts\ServicesStackAbstractFactoryInterface;
+
 // Importo el autoload de composer para poder usar las clases de los namespaces.
 // Para poder usar todas las clases que se encuentran en la carpeta src
 require __DIR__ . '/vendor/autoload.php';
@@ -12,9 +13,9 @@ require __DIR__ . '/vendor/autoload.php';
 // EXISTE LA INVERSION DE DEPENDENCIAS!!!
 // La funcion no depende de una fabrica especifica, sino que depende de una clase abstracta
 // Y esta fabrica abstracta es la que va a crear los vehiculos de cualquier tipo
-// El parametro que se espera es de tipo VehiclesAbstractFactory, la cual es una clase abstracta, 
+// El parametro que se espera es de tipo ServicesStackAbstractFactoryInterface, la cual es una clase abstracta,
 // pero le enviaremos una clase que herede de esta clase abstracta, en este caso una clase especifica
-function randomFunciton(VehiclesAbstractFactory $factory)
+function randomFunciton(ServicesStackAbstractFactoryInterface $factory)
 {
     // Creamos un vehiculo desde la fabrica
     $vehicle = $factory->createVehicle();
@@ -27,4 +28,4 @@ function randomFunciton(VehiclesAbstractFactory $factory)
 
 // Ahora llamamos a la funcion y le enviamos una fabrica especifica
 // En este caso la fabrica de carros
-randomFunciton(new \AbstractFactory\Factories\CarsFactory());
+randomFunciton(new \AbstractFactory\Factories\ServiceStackAbstractFactory());

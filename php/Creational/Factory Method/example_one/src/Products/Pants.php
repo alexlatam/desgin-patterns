@@ -4,7 +4,7 @@ namespace FactoryMethod\Products;
 
 use FactoryMethod\Contracts\ClothesInterface;
 
-// La clase Car al implementar la interfaz VehicleInterface, debe implementar todos los métodos de la interfaz.
+// La clase EmployeeService al implementar la interfaz VehicleInterface, debe implementar todos los métodos de la interfaz.
 class Pants implements ClothesInterface
 {
     public function isClean(): bool {

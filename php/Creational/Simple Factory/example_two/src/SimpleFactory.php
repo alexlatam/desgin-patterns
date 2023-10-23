@@ -12,7 +12,7 @@ use SimpleFactory\Products\Pants;
 // La calse Factory es la que se encaragara de crear cada tipo de ropa
 // Y como se puede ver, gracias a que se realizo la abstraccion, 
 // ahora cada metodo de creacion, debe retornar un objeto que implemente la interfaz 'ClothesInterface'
-class SimpleFactory
+final class SimpleFactory
 {
     static public function create($type): ClothesInterface {
         switch ($type) {

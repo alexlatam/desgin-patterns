@@ -130,7 +130,7 @@ class HatchbackCarFactory {
 
 /**
  * Main function
- * @param {CarAbstractFactory} factory Car factory
+ * @param {CarAbstractFactory} factory EmployeeService factory
  */
 function appAbstractFactory(factory) {
     console.log('--- [JS] Calling appAbstractFactory ---\n');

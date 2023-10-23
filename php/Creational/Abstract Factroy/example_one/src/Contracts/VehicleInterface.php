@@ -2,10 +2,10 @@
 
 namespace AbstractFactory\Contracts;
 
-//  Declaro una interfaz para los vehículos. 
+//  Declaro una interfaz para los vehículos. Que seran los productos a crear.
 // Esta interfaz sera implementada por todos los vehiculos que se creen.
 // Esta interfaz es la que se usara en el factory para crear los vehiculos.
-// esta interfaz establecera los metodos que tendran todos los vehiculos que se crearan
+// Esta interfaz establecera los metodos que tendran todos los vehiculos que se crearan
 interface VehicleInterface {
 
     public function setColor($rgb): void;

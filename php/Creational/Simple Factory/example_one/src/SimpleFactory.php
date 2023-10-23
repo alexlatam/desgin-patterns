@@ -1,17 +1,17 @@
 <?php 
 
-namespace SimpleFactory;
+namespace SimpleFactoryOne;
 
-use SimpleFactory\Contracts\VehicleInterface;
-use SimpleFactory\Vehicles\Car;
-use SimpleFactory\Vehicles\Motorcycle;
-use SimpleFactory\Vehicles\Truck;
+use SimpleFactoryOne\Contracts\VehicleInterface;
+use SimpleFactoryOne\Vehicles\Car;
+use SimpleFactoryOne\Vehicles\Motorcycle;
+use SimpleFactoryOne\Vehicles\Truck;
 
 // Esta sera la clase PRINCIAPAL del patron de diseño
-// LA calse Factory es la que se encaragara de crear cada vehiculo
+// La clase Factory es la que se encaragara de crear cada vehiculo
 // Y como se puede ver, gracias a que se realizo la abstraccion, 
 // ahora cada metodo de creacion, debe retornar un objeto que implemente la interfaz 'VehicleInterface'
-class SimpleFactory
+final class SimpleFactory
 {
     // Este metodo debe retornar un objeto que implemente la interfaz 'VehicleInterface'
     static public function createNewCar(): VehicleInterface

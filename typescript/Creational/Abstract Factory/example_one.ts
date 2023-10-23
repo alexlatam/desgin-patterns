@@ -121,7 +121,7 @@ interface MastodonCar {
   
   /**
    * Main function
-   * @param factory Car factory
+   * @param factory EmployeeService factory
    */
   function appCarFactory(factory: CarAbstractFactory) {
     console.log('--- [TS] Calling appAbstractFactory ---\n');
