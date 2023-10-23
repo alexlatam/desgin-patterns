@@ -2,7 +2,7 @@
     "name": "alexlatam/example",
     "autoload": {
         "psr-4": {
-            "AdapterThree\\": "src/"
+            "AdapterTwo\\": "src/"
         }
     },
     "authors": [
@@ -11,5 +11,7 @@
             "email": "alexisamm9261@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.2"
+    }
 }

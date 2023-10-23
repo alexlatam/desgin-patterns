@@ -1,10 +1,10 @@
 <?php
 
-namespace AdapterThree\Services;
+namespace AdapterTwo\Readers;
 
-use AdapterThree\Contracts\eReaderInterface;
+use AdapterTwo\Contracts\eReaderInterface;
 
-class PDFReader implements eReaderInterface
+final class PDFReader implements eReaderInterface
 {
     public function turnOn(): void
     {

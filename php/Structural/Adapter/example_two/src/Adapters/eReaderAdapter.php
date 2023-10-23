@@ -1,25 +1,23 @@
 <?php
 
-namespace AdapterThree\Adapters;
+namespace AdapterTwo\Adapters;
 
-use AdapterThree\Contracts\TransaportInterface;
-use AdapterThree\Services\eReaderInterface;
+use AdapterTwo\Contracts\BookInterface;
+use AdapterTwo\Contracts\eReaderInterface;
 
 /**
  * Este es el Adapatador.
- * Implementa la interfaz del tipo que se espera (BookInterface)
+ * Implementa la interfaz del tipo que se espera en el cliente (BookInterface)
  * Sirve adpatar las clases de la interfaz eReaderInterface a la interfaz BookInterface.
  * Por lo tanto los metodos se adaptan a la interfaz BookInterface.
  *
- * ESta clase transforma/adapta la interfaz eReaderInterface a la interfaz BookInterface
+ * Esta clase transforma/adapta la interfaz eReaderInterface a la interfaz BookInterface
  */
-class eReaderAdapter implements TransaportInterface
+final readonly class eReaderAdapter implements BookInterface
 {
-    private eReaderInterface $reader;
-
-    public function __constructor(eReaderInterface $reader): void
+    // El constructor espera una intergaz que sera adaptada a la interfaz BookInterface
+    public function __construct(private eReaderInterface $reader)
     {
-        $this->reader = $reader;
     }
 
     // El metodo open no se encuentra en la interfaz eReaderInterface

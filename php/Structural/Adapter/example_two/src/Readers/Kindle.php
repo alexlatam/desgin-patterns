@@ -1,10 +1,10 @@
 <?php
 
-namespace AdapterThree\Services;
+namespace AdapterTwo\Readers;
 
-use AdapterThree\Contracts\eReaderInterface;
+use AdapterTwo\Contracts\eReaderInterface;
 
-class Kindle implements eReaderInterface
+final class Kindle implements eReaderInterface
 {
     public function turnOn(): void
     {

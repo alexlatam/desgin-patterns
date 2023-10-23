@@ -1,6 +1,6 @@
 <?php
 
-namespace AdapterThree\Contracts;
+namespace AdapterTwo\Contracts;
 
 interface BookInterface
 {

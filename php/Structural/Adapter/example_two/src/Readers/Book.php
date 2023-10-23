@@ -1,10 +1,10 @@
 <?php
 
-namespace AdapterThree\Services;
+namespace AdapterTwo\Readers;
 
-use AdapterThree\Contracts\TransaportInterface;
+use AdapterTwo\Contracts\BookInterface;
 
-final class Transaport implements TransaportInterface
+final class Book implements BookInterface
 {
     public function open(): void
     {
