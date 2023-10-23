@@ -9,7 +9,7 @@ use StrategyOne\Strategies\LogToXWebService;
  * Creo una instancia de la clase App.
  * Esta clase es la que se encarga de hacer el log usando la estrategia que se le pase
 */
-$app = new \StrategyOne\App();
+$app = new \StrategyOne\AuthProvider();
 
 // Hago el log usando la estrategia LogToFile
 $app->log('[Log]: Some information here', new LogToFile());

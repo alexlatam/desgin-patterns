@@ -1,0 +1,28 @@
+<?php
+namespace StrategyTwo;
+
+use Contracts\AuthInterface;
+
+/**
+ * Esta es la clase que gestionara las estrategias. La clase Context[propia del patron].
+ */
+final class AuthProvider
+{
+    // Recibe una estrategia de autenticacion al crear una instancia
+    public function __construct(private AuthInterface $authStrategy)
+    {
+    }
+
+    // Metodo publico que permite cambiar de estrategia
+    public function setStrategy(AuthInterface $authStrategy): void
+    {
+        $this->authStrategy = $authStrategy;
+    }
+
+    // Metodo publico que permite autenticar
+    public function authenticate(string $username, string $password): string
+    {
+        return $this->authStrategy->authenticate($username, $password);
+    }
+
+}
