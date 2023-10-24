@@ -15,7 +15,7 @@
       <sourceFolder url="file://$MODULE_DIR$/php/Creational/Simple Factory/example_two/src" isTestSource="false" packagePrefix="SimpleFactory" />
       <sourceFolder url="file://$MODULE_DIR$/php/Structural/Adapter/example_one" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/php/Structural/Composite/example_one/src" isTestSource="false" packagePrefix="Composite" />
-      <sourceFolder url="file://$MODULE_DIR$/php/Structural/Proxy/Example_one/src" isTestSource="false" packagePrefix="Proxy" />
+      <sourceFolder url="file://$MODULE_DIR$/php/Structural/Proxy/example_one/src" isTestSource="false" packagePrefix="Proxy" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
