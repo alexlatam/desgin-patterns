@@ -1,8 +1,35 @@
 <?php
 
-namespace Item;
+namespace StateOne\Item;
 
-class Microwave
+use StateOne\Contracts\StateInterface;
+
+final class Microwave
 {
+    private StateInterface $current_state;
 
+    public function __construct(StateInterface $state)
+    {
+        $this->current_state = $state;
+    }
+
+    public function start(int $duration): bool
+    {
+        return $this->current_state->start($duration);
+    }
+
+    public function stop(): bool
+    {
+        return $this->current_state->stop();
+    }
+
+    public function openDoor(): bool
+    {
+        return $this->current_state->openDoor();
+    }
+
+    public function changeState(StateInterface $new_state): void
+    {
+        $this->current_state = $new_state;
+    }
 }
