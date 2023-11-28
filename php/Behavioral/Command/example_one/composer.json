@@ -2,7 +2,7 @@
     "name": "alexlatam/example",
     "autoload": {
         "psr-4": {
-            "ObserverTwo\\": "src/"
+            "CommandOne\\": "src/"
         }
     },
     "authors": [
